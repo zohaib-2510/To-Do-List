@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%; 
+    background:linear-gradient(to top left,rgb(191, 0, 255),0%,rgb(47, 57, 255)100%);
+     display: flex;
+    justify-content: center;
+
+    align-items: centers;
+}
+
+.main{
+    width: 500px;
+    border: 1.9px solid black;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 15px;
+    background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+
+    margin-right: 15px;
+}
+h1{
+    color: #fff;
+text-align: center;
+}
+.add{
+    font-size: 90px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: 900;
+}
+#inp{
+    width: 390px;
+
+    height: 50px;
+    border: none;
+    border-bottom: 4px solid red;
+    outline: none;
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.59);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(17.1px);
+-webkit-backdrop-filter: blur(17.1px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+text-align: center;
+}
+#Button{
+width: 390px;
+height: 50px;
+border-radius: 10px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+
+#jj{
+    display: grid;
+grid-template-columns: repeat(300px);
+    justify-content: center;
+}
